@@ -1,0 +1,13 @@
+@import "_variaveis.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $fontFamilyGeral;
+}
+
+body {
+    background-color: $corPrincipal !important;
+    color: $corSecundaria !important;
+}
