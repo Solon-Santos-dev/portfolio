@@ -1,0 +1,15 @@
+header {
+    height: 60px;
+
+    #headerIcons {
+        a {
+            color: $corSecundaria;
+            transition: 120ms ease-in;
+
+            &:hover {
+                color: $corTerciaria;
+            }
+        }
+    }
+
+}

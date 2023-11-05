@@ -1,4 +1,5 @@
 @import "_variaveis.scss";
+@import "_header.scss";
 
 * {
     margin: 0;
@@ -8,6 +9,6 @@
 }
 
 body {
-    background-color: $corPrincipal !important;
+    background-color: $corBrackgroundPrincipal !important;
     color: $corSecundaria !important;
 }
