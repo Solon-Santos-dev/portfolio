@@ -10,5 +10,37 @@
 
 body {
     background-color: $corBrackgroundPrincipal !important;
-    color: $corSecundaria !important;
+    color: $corPrincipal !important;
+}
+
+.custom-tooltip {
+    .tooltip-inner{
+        background-color: $corSecundaria;
+        font-size: 0.7rem;
+        color: $corBrackgroundPrincipal;
+        font-weight: 500;
+    }
+	&[data-popper-placement^="top"] {
+		.tooltip-arrow::before {
+			border-top-color: $corSecundaria !important;
+		}
+	}
+
+	&[data-popper-placement^="right"] {
+		.tooltip-arrow::before {
+			border-right-color: $corSecundaria !important;
+		}
+	}
+
+	&[data-popper-placement^="bottom"] {
+		.tooltip-arrow::before {
+			border-bottom-color: $corSecundaria !important;
+		}
+	}
+
+	&[data-popper-placement^="left"] {
+		.tooltip-arrow::before {
+			border-left-color: $corSecundaria !important;
+		}
+	}
 }

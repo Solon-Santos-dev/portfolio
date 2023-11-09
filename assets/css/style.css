@@ -21,3 +21,22 @@ body {
   background-color: #000 !important;
   color: #fff !important;
 }
+
+.custom-tooltip .tooltip-inner {
+  background-color: #9be9a8;
+  font-size: 0.7rem;
+  color: #000;
+  font-weight: 500;
+}
+.custom-tooltip[data-popper-placement^=top] .tooltip-arrow::before {
+  border-top-color: #9be9a8 !important;
+}
+.custom-tooltip[data-popper-placement^=right] .tooltip-arrow::before {
+  border-right-color: #9be9a8 !important;
+}
+.custom-tooltip[data-popper-placement^=bottom] .tooltip-arrow::before {
+  border-bottom-color: #9be9a8 !important;
+}
+.custom-tooltip[data-popper-placement^=left] .tooltip-arrow::before {
+  border-left-color: #9be9a8 !important;
+}

@@ -3,11 +3,11 @@ header {
 
     #headerIcons {
         a {
-            color: $corSecundaria;
+            color: $corPrincipal;
             transition: 120ms ease-in;
 
             &:hover {
-                color: $corTerciaria;
+                color: $corSecundaria;
             }
         }
     }
