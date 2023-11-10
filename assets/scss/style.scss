@@ -1,16 +1,16 @@
 @import "_variaveis.scss";
 @import "_header.scss";
-
+@import "_banner.scss";
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: $fontFamilyGeral;
 }
 
 body {
     background-color: $corBrackgroundPrincipal !important;
     color: $corPrincipal !important;
+    font-family: $fontFamilyGeral !important;
 }
 
 .custom-tooltip {
